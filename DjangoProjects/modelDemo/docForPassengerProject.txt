@@ -1,0 +1,14 @@
+step 1: create Project
+step 2: create Application
+step 3: add app in installed Apps in settings.py
+step 4:  create database in mysql workbench
+step 5: configure database deatils(Engine, db name, user, password) in settings.py
+step 6: create model in model.py with the specified fields as it will be columns in our table
+step 7: make Migration to generate sql code
+step 8: migrate to execute the sql commands and now our table is created
+step 9: create a view and return render method with request, template name and all the details of the table that you have fetched in view it must be saved to dictionary
+step 10: create a template and let settings.py know the template directory. In template.html take data from the view and generate html to render as response to the user.
+step 11: configure url
+step 12: register model class in admin.py to fetch data and to login to admin first create superuser and we can make admin UI more attractive my create one class in admin.py with list of fields and also register that class.
+
+on a brief note: by following these steps we can create the Project of Passenger details and see the responses on Admin UI
