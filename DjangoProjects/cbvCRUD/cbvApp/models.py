@@ -8,5 +8,5 @@ class Student(models.Model):
   testScore = models.FloatField()
 
   def get_absolute_url(self):
-      return reverse('detail',kwargs={'pk':self.pk})
+      return reverse('detail',kwargs={'pk' :self.pk})
   

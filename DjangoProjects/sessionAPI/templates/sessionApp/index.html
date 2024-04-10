@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>Welcome to shopping cart</h1>
+  <a href="/addItem">Add Item</a>
+  <a href="/displayItems">Display Cart</a>
+  <br/><b>Session Expiry time in seconds: {{request.session.get_expiry_age}}</b>
+  <br/><b>Session will expire on: {{request.session.get_expiry_date}}</b>
+</body>
+</html>
