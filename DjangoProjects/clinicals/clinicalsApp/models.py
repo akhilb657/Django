@@ -11,4 +11,4 @@ class ClinicalData(models.Model):
   componentName = models.CharField(choices=COMPONENT_NAMES,max_length=20)
   componentValue = models.CharField(max_length=20)
   measuredDateTime = models.DateTimeField(auto_now_add=True)
-  patinet = models.ForeignKey(Patient,on_delete=models.CASCADE)
+  patient = models.ForeignKey(Patient,on_delete=models.CASCADE)
